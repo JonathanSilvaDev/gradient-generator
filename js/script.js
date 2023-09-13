@@ -6,6 +6,7 @@ const body = document.getElementById('gradient')
 // console.log(css,color1,color2)
 
 function changeColor() {
+    body.style.h3 = 'white'
     body.style.background = 
     `Linear-gradient(to right,${color1.value}, ${color2.value})`
 
