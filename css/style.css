@@ -1,6 +1,7 @@
 body {
+    height: 100vh;
     font: "Helvetica", sans-serif;
-    color: rgba(0,0,0,5);
+    color: rgba(0, 0, 0, 5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -9,8 +10,8 @@ body {
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif ;
-    color: rgba(0,0,0,5);
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
@@ -29,3 +30,15 @@ h3 {
     /* border-radius: 5px; */
 }
 
+section {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    height: 400px;
+    background-color: hsla(0, 0%, 100%, .01);
+    border: 1px solid hsla(0, 0%, 100%, .7);
+    margin: 0 auto;
+    border-radius: 10px;
+    backdrop-filter: blur(16px);
+}
